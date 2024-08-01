@@ -1,0 +1,24 @@
+UNDEFINED AND NOT DEFINED
+---------------------------------
+console.log(x)
+
+var x=5
+
+console.log(x)
+console.log(z)
+
+---------------------------------
+
+- when code is run in js,js engine skims through the whole code line by line and it creates memory during creation phase of execution context.x variable will get hoisted and value for variable will be undefined.
+
+- So from that we can say undefined is some specific value. Its totally different from empty or null.
+
+- undefined is placeholder value which is stored in variable for a time being till they get proper value assigned.
+
+- so if variable is there in code, value will be undefined if we tries to access x before assining any value to it.
+
+- but reference error or not defined means, there is no variable which is hoisted or which is not in the memory space and if we tries to access it, it will say reference error.
+
+- Which is not even created or added into global space or global object.
+
+
