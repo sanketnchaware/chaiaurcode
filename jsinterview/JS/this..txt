@@ -1,0 +1,10 @@
+- Whenever any program is run in js, global execution context is created, global object i.e window object is created and along with this keyword also created.
+
+- window object consist of different kind and functions, methods and variables which are provided  by js engine.
+
+- And this keyword always points to the window object if its declared globally.
+
+
+- any code is written in js which is not inside a function that will exist into global space.
+
+- and if we write any variables and functions in global space that will be added into window object.

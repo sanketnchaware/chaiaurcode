@@ -1,0 +1,29 @@
+- Hoisting is phenomenon in javascript by which we can access the variables and functions even before they get initialized with some value without any error.
+
+Two components and js program is run in two phases:
+1.memory components 2.code component
+1.memory creation phase  2.code execution phase
+
+1.Memory Creation
+
+- In the first fase js skims through the program line by line and  allocates memory for all the variables and functions.
+
+- in case of varaibles x, it store a value, undefined which is special placeholder beforethe execution. 
+
+- for functions, memory will be allcalled but function will store the whole function code as it is in the memory space.
+
+2.Code Execution
+
+- The code is executed line by line by js engine.
+
+- As during execution global execution context is pushed into the call stack.
+
+- Call stack is a stack which holds all the execution context which are created when we tries to run som block of code. 
+
+- during execution global if values are assigned to variables that will be replaced by the undefined and variables will store exact value which is assigned in the code.
+
+-but when function is invoked another exection context is created and pushed to the call stack and again for that execution content again js engine will skim line by line and will hoist the functions and variables.
+
+- As the function is executed totally it will be popped from the call stack.
+
+- And once all the code is executed global execution context also will be popped from call stack.
